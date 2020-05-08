@@ -27,16 +27,16 @@ EXPOSE 443
 
 STOPSIGNAL SIGKILL
 
-LABEL org.opencontainers.image.ref.name="warhorse/evilginx2" \
+LABEL org.opencontainers.image.ref.name="adastraa/docker-evilginx2-nodevmode" \
       org.opencontainers.image.created=$BUILD_RFC3339 \
-      org.opencontainers.image.authors="warhorse <warhorse@thedarkcloud.net>" \
-      org.opencontainers.image.documentation="https://github.com/war-horse/docker-evilginx2/README.md" \
+      org.opencontainers.image.authors="adastra <adastra@thehackerway.com>" \
+      org.opencontainers.image.documentation="https://github.com/Adastra-thw/docker-evilginx2/README.md" \
       org.opencontainers.image.description="Evilginx2 Docker Build" \
       org.opencontainers.image.licenses="GPLv3" \
-      org.opencontainers.image.source="https://github.com/war-horse/docker-evilginx2" \
+      org.opencontainers.image.source="https://github.com/Adastra-thw/docker-evilginx2" \
       org.opencontainers.image.revision=$COMMIT \
       org.opencontainers.image.version=$VERSION \
-      org.opencontainers.image.url="https://hub.docker.com/r/warhorse/evilginx2/"
+      org.opencontainers.image.url="https://hub.docker.com/r/adastraa/docker-evilginx2-nodevmode/"
 
 ENV BUILD_RFC3339 "$BUILD_RFC3339"
 ENV COMMIT "$COMMIT"
