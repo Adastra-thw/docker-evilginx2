@@ -3,4 +3,4 @@
 #
 #
 
-/bin/evilginx -p /phishlets -c /config -developer
+/bin/evilginx -p /phishlets -c /config
